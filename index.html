@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Guilloteau - Portfolio BTS CIEL</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">&lt;Lucas.dev/&gt;</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#apropos" class="nav-link">À propos</a></li>
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="typing-animation">Lucas Guilloteau</span>
+                    </h1>
+                    <p class="hero-subtitle">Étudiant BTS CIEL • Développeur • Passionné de Tech</p>
+                    <p class="hero-description">
+                        Actuellement en formation BTS CIEL, je développe mes compétences informatique. Passionné par 
+                        l'innovation technologique et les défis techniques.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projets" class="btn btn-primary">
+                            <span>Voir mes projets</span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Me contacter</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-animation">
+                        <div class="terminal">
+                            <div class="terminal-header">
+                                <div class="terminal-buttons">
+                                    <span class="btn-close"></span>
+                                    <span class="btn-minimize"></span>
+                                    <span class="btn-maximize"></span>
+                                </div>
+                                <span class="terminal-title">lucas@ciel-terminal</span>
+                            </div>
+                            <div class="terminal-body" id="terminal-content">
+                                <!-- Le contenu sera généré dynamiquement -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Étudiant passionné en BTS CIEL, je me spécialise dans le développement 
+                        d'applications et les technologies mobiles.
+                    </p>
+                    <p>
+                        Mon parcours m'a amené à créer des outils de sécurité, des applications 
+                        iOS personnalisées et des générateurs de mots de passe sécurisés. 
+                        J'aime explorer les aspects techniques de la programmation et de la sécurité informatique.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Projets personnels</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Domaines d'expertise</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">∞</span>
+                            <span class="stat-label">Passion pour l'apprentissage</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mes compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-category="programming">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Développement</h3>
+                    <p>Applications desktop, mobile et outils de développement</p>
+                    <div class="skill-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Qt/PyQt</span>
+                        <span class="tech-tag">Swift</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-category="security">
+                    <div class="skill-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Cybersécurité</h3>
+                    <p>Outils de sécurité, keyloggers éducatifs, analyse de sécurité</p>
+                    <div class="skill-tech">
+                        <span class="tech-tag">Security Tools</span>
+                        <span class="tech-tag">Keylogger</span>
+                        <span class="tech-tag">Password Gen</span>
+                        <span class="tech-tag">Ethical Hacking</span>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-category="mobile">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile & iOS</h3>
+                    <p>Développement iOS, tweaks et applications personnalisées</p>
+                    <div class="skill-tech">
+                        <span class="tech-tag">iOS Development</span>
+                        <span class="tech-tag">Tweak Creation</span>
+                        <span class="tech-tag">UI/UX Design</span>
+                        <span class="tech-tag">Xcode</span>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-category="tools">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Outils & Frameworks</h3>
+                    <p>Interfaces graphiques, versioning et développement collaboratif</p>
+                    <div class="skill-tech">
+                        <span class="tech-tag">Git/GitHub</span>
+                        <span class="tech-tag">GUI Development</span>
+                        <span class="tech-tag">CLI Tools</span>
+                        <span class="tech-tag">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/gitdreamlteui/flags_ios" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/gitdreamlteui/flags_ios" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Flags iOS</h3>
+                        <p>Projet visant à faire un diffing entre différentes versions d'un fichier de commutateur de fonctionnalités</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">iOS</span>
+                            <span class="tech-tag">JSON</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/gitdreamlteui/passwordGenerator-python" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/gitdreamlteui/passwordGenerator-python" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Password Generator</h3>
+                        <p>Générateur de mots de passe sécurisé avec interface graphique Qt développé en Python</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PyQt</span>
+                            <span class="tech-tag">Security</span>
+                            <span class="tech-tag">GUI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/gitdreamlteui/PythonKeylogger" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/gitdreamlteui/PythonKeylogger" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Python Keylogger</h3>
+                        <p>Keylogger éducatif développé en Python pour comprendre les techniques de surveillance et de sécurité</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Security Research</span>
+                            <span class="tech-tag">Educational</span>
+                            <span class="tech-tag">System Programming</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-footer">
+                <a href="https://github.com/gitdreamlteui" target="_blank" class="btn btn-github">
+                    <span><i class="fab fa-github"></i> Voir tous mes projets</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Me contacter</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Connectons-nous !</h3>
+                    <div class="contact-description">
+                        <p>N'hésitez pas à me contacter pour discuter de projets, d'opportunités ou simplement échanger sur les technologies qui nous passionnent.</p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:lucas.guilloteau1@gmail.com" class="btn btn-contact">
+                            <span><i class="fas fa-envelope"></i> lucas.guilloteau1@gmail.com</span>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/lucas-guilloteau-539415196/" target="_blank" class="btn btn-contact">
+                            <span><i class="fab fa-linkedin"></i> LinkedIn</span>
+                        </a>
+                        
+                        <a href="https://github.com/gitdreamlteui" target="_blank" class="btn btn-contact">
+                            <span><i class="fab fa-github"></i> GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>Fait avec ❤ .</p>
+                <div class="footer-links">
+                    <a href="#accueil" class="back-to-top">
+                        <i class="fas fa-arrow-up"></i> Retour en haut
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
